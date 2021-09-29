@@ -1,5 +1,6 @@
 # A program for visualizing the unemployment rate in Detroit from 1990 to 2020
 # X axis labelled with "Unemployment rate" and Y axis labelled with "Date"
+# You can find the data in this repo as "export.csv"
 # Markers at lowest and highest unemployment rate showing the rate and the date in format "YYYY-MM"
 # This program was originally written for a presentation for school about Detroit's economy and cityscape
 

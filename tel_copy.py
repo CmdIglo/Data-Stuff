@@ -23,7 +23,7 @@ END:VCARD
 
 # the file
 # replace file.vcf with the filename of the file that is supposed to be converted
-file = open('vcards_20220319_122207.vcf', 'r')
+file = open('file.vcf', 'r')
 
 # a local, list-like, version of the file
 file = [line for line in file]

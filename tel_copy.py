@@ -16,7 +16,7 @@ VERSION:SOME_NUMBERS
 N:LASTNAMEFIRSTNAME
 FN:FIRSTNAME LASTNAME
 TEL:TELEPHONENUMBER
-OTHERNUMBERS(not often usesd)
+OTHERNUMBERS(not often used)
 EMAIL:EMAIL(I was only supposed to copy the telephone numbers, but adding that feature shouldn't take too long I guess. Maybe I add it later)
 END:VCARD
 """

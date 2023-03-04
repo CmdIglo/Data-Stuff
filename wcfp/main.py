@@ -1,5 +1,7 @@
 
-import pandas
+import requests
+import json
+import pandas_datareader.data as web
 import matplotlib.pyplot as plt
 
 #main Program
@@ -13,3 +15,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    updater()

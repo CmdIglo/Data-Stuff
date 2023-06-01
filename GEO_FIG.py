@@ -12,8 +12,8 @@ def main():
 	lisLab = []
 	lisArb = []
 	df = pd.read_csv("export.csv")
-	
-    for i in range(len(df["label"])):
+
+	for i in range(len(df["label"])):
 		lisLab.append(df["label"][i])
 		lisArb.append(df["Arbeitslosenrate"][i])                                                                                                      #Arbeitslosenrate = unemployment rate
 	
@@ -51,7 +51,7 @@ def main():
 	frame.axes.get_xaxis().set_ticks([])
 	frame.axes.get_yaxis().set_ticks([])
 	
-    plt.show()
+	plt.show()
 
 if __name__ == "__main__":
 		main()

@@ -39,8 +39,10 @@ def main():
 	lisArb = np.array(lisArb)
 	lisLab = np.array(lisLab)
 	
-	plt.xlabel("Datum")                                                                                                                               #datum = date
-	plt.ylabel("Arbeitslosenrate")
+	plt.title("Unemployment rate in Detroit over the years")
+
+	plt.xlabel("Date")                                                                                                                               #datum = date
+	plt.ylabel("Unemployment rate")
 	
 	plt.annotate("Highest unemployment rate ({}%): \n {}".format(maxval,maxLab), (ymax, maxval), (ymax-175, maxval-5), arrowprops=arrow_properties)
 	plt.annotate("Lowest unemployment rate ({}%): \n {}".format(minval,minLab), (ymin, minval), (ymin-100, minval+15), arrowprops=arrow_properties)
